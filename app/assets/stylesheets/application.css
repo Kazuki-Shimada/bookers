@@ -13,3 +13,105 @@
  *= require_tree .
  *= require_self
  */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+
+body {
+  margin: 33px;
+}
+
+.flash {
+  color: green;
+  margin: 33px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+a:hover {
+  color: white;
+  background-color: black;
+}
+/*top*/
+h1 {
+  font-size: 2em;
+}
+
+.top-information {
+  margin: 33px;
+  margin-top: 20px;
+  line-height: 50px;
+}
+
+.start-button {
+  margin-left: 33px;
+}
+
+/*index*/
+table {
+  margin-top: 20px;
+}
+th {
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+
+td {
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.new-book {
+  padding: 30px 0 20px;
+}
+
+.field {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.field:invalid {
+  border: 2px solid red;
+}
+
+.error-message {
+  border: 2px solid red;
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+  width: 450px;
+}
+
+.error-message p {
+  background-color: #c00;
+  color: white;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+}
+
+.error-message ul {
+  padding: 50px;
+}
+
+.error-message li {
+  list-style: square;
+}
+
+/*show*/
+.show-message {
+  margin: 33px;
+}
+
+/*editing*/
+.editing-book {
+  padding-bottom: 18px;
+}
